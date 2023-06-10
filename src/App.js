@@ -44,8 +44,13 @@ const App = () => {
           <p>Wind Speed: {weather.wind.speed} km/h</p>
         </div>
       )}
+      {/* make a footer simple and sweet for developer as codevinu */}
+      <footer>
+        <p>Developed with ❤️ by <a href="https://github.com/vinitvijal/">codevinu</a></p>
+      </footer>
     </div>
   );
 };
 
 export default App;
+
